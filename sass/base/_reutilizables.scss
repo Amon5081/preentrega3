@@ -1,0 +1,43 @@
+@mixin boton($color, $fondo) {
+    background-color: $fondo;
+    color: $color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken($fondo, 10%);
+    }
+}
+
+@mixin titulo($tamano, $color) {
+    font-size: $tamano;
+    color: $color;
+    font-weight: bold;
+    margin: 0;
+}
+
+@mixin transicion($propiedades) {
+    transition: $propiedades;
+}
+
+@mixin flexbox($direccion: row, $justificar: center, $alinear: center) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justificar;
+    align-items: $alinear;
+}
+
+@mixin media($tamano) {
+    @media (max-width: $tamano) {
+        @content;
+    }
+}
+
+@mixin media_query($tamano){
+    @media screen and (max-width:$tamaño) {
+        @content;
+    }
+}
