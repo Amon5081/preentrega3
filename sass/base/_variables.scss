@@ -1,14 +1,14 @@
-/*colores*/
+
 $color-primario: #007BFF;
 $color-secundario: #FF9800;
 $color-fondo: #4CAF50;
 $color-texto: #666666;
 
-/*tipografia*/
+
 $fuente-predeterminada:'Young Serif', serif;
 $tamano-base: 16px;
 
-/*margenes y rellenos*/
+
 $margen-pequeno: 10px;
 $margen-mediano: 20px;
 $margen-grande: 30px;
@@ -16,11 +16,11 @@ $relleno-pequeno: 5px;
 $relleno-mediano: 10px;
 $relleno-grande: 20px;
 
-/*bordes y radios*/
+
 $borde: 1px solid #ccc;
 $radio-borde: 5px;
 
-/*puntos de quiebre para responsive*/
+
 $punto-de-ruptura-pequeno: 768px;
 $punto-de-ruptura-mediano: 992px;
 $punto-de-ruptura-grande: 1200px;
