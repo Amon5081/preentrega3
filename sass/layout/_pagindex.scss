@@ -1,0 +1,52 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 3px;
+}
+
+.banner {
+    position: relative;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-weight:bold ;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+}
+
+main {
+    section {
+        .carousel-inner {
+            max-height: 40rem !important;
+        }
+
+        .carousel-inner img {
+            height: 600px;
+            object-fit: contain;
+        }
+    }
+}
+
+#intro{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.pie-pagina{
+    text-align: center;
+}
+

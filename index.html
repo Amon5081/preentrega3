@@ -20,36 +20,77 @@
 </head>
 
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html">Turismo BA</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                            <a class="nav-link" href="./pages/info_practica.html">Info Practica</a>
-                            <a class="nav-link" href="./pages/Lugares.html">Lugares</a>
-                            <a class="nav-link" href="./pages/eventos.html">Eventos</a>
-                            <a class="nav-link" href="./pages/Restaurantes.html">Restaurantes</a>
-                        </div>
+    <header>
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Turismo BA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/visitas_guiadas.html">Visita Guiadas</a>
+                        <a class="nav-link" href="./pages/Lugares.html">Lugares</a>
+                        <a class="nav-link" href="./pages/eventos.html">Eventos</a>
+                        <a class="nav-link" href="./pages/Restaurantes.html">Restaurantes</a>
                     </div>
                 </div>
+            </div>
         </header>
-        <main>
-            <section>
-
-            </section>
-        </main>
-        <footer>
-
-        </footer>
+        <!--banner de presentacion-->
+    <div class="banner">
+        <img src="https://turismo.buenosaires.gob.ar/sites/turismo/files/puente-mujer-puerto-madero-atardecer1920x600.jpg"
+            alt="banner_inicio">
+        <h1>Buenos aires una ciudad llena de sorpresas</h1>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!--Bienvenida a la pagina-->
+    <main class="container-fluid">
+        <section class="w-50 mx-auto text-center" id="intro">
+            <h2 class="p-3 fs-2 border-top border-3">¡Bienvenidos a la página de turismo de Buenos Aires, Argentina!
+            </h2>
+            <p>Esta ciudad es un destino único que combina la elegancia europea con la pasión latina, ofreciendo a sus
+                visitantes una experiencia inolvidable. Desde sus icónicos barrios, como La Boca, San Telmo y Palermo,
+                hasta su rica historia, cultura y arte, te guiaremos a través de todo lo que esta ciudad tiene para
+                ofrecer. Además, te proporcionaremos información detallada sobre los principales puntos de interés,
+                eventos culturales, restaurantes, actividades al aire libre y mucho más para que tu visita a
+                Buenos Aires sea memorable.</p>
+        <!--carousel de imagenes-->
+        </section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="https://realestatemarket.com.mx/images/2023/02-febrero/27-02/buenos-aires-entre-las-ciudades-de-mayor-recuperacion-turistica-g.jpg"
+                        class="d-block w-100" alt="imagen del obelisco de noche">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/NHYHVF4N2NA7VGSSLVHQ2NCJEU.gif"
+                        class="d-block w-100" alt="paisaje de edificios de buenos aires">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="https://realestatemarket.com.mx/images/2022/12-diciembre/05-12/puerto-madero-el-barrio-mas-caro-de-buenos-aires-g.jpg"
+                        class="d-block w-100" alt="foto de noche de puerto madero y el puente de la mujer">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <i class="fa-regular fa-star fa-beat" style="color: #fad000;"></i>Contactos:<br />
+            <i class="fa-solid fa-house"></i>Direccion: av.corrientes 1234<br />
+            <i class="fa-solid fa-mobile-screen"></i>Telefono: 1122246587<br />
+            <i class="fa-solid fa-envelope"></i>Email:TurismoBA@hotmail.com<br />
+            Todos los derechos reservados
+        </p>
+    </footer>
+    </div>
+    <!--script de bootrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

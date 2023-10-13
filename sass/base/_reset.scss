@@ -4,5 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $fuente-predeterminada;
+    
+}
+/*fondo*/
+body{
+    font-family: $fuente-predeterminada !important;
+    background-image: linear-gradient(359deg, #c0bdce, #c2c6ca, #c3cfc5, #c4d8c1)
 }

@@ -30,14 +30,9 @@
     align-items: $alinear;
 }
 
-@mixin media($tamano) {
-    @media (max-width: $tamano) {
-        @content;
-    }
-}
 
 @mixin media_query($tamano){
-    @media screen and (max-width:$tamaño) {
+    @media screen and (max-width:$tamano) {
         @content;
     }
 }
