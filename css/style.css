@@ -7,7 +7,7 @@
 /*fondo*/
 body {
   font-family: "Young Serif", serif !important;
-  background-image: linear-gradient(359deg, #c0bdce, #c2c6ca, #c3cfc5, #c4d8c1);
+  background-color: #c9b8a8 !important;
 }
 
 body {
@@ -107,6 +107,39 @@ main section .carousel-inner img {
   object-fit: contain;
   width: 1500px;
   height: 800px;
+}
+
+.titulo {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 45px;
+  border-radius: 90px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.062);
+}
+
+.top-turismo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.top-turismo h2 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.top-turismo p {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 30px;
+  width: 500px;
+}
+.top-turismo img {
+  justify-content: center;
+  margin: 30px;
+  object-fit: fill;
+  width: 500px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

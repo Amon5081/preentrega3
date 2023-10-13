@@ -1,0 +1,36 @@
+.titulo{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 90px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+.top-turismo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    h2{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    p{
+        background-color: antiquewhite;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 30px;
+        width: 500px;
+    }
+
+    img{
+
+        justify-content: center;
+        margin: 30px;
+        object-fit: fill;
+        width: 500px;
+        height: 300px;
+    }
+
+}
