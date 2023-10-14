@@ -12,11 +12,32 @@
     }
 }
 
-@mixin titulo($tamano, $color) {
-    font-size: $tamano;
-    color: $color;
-    font-weight: bold;
-    margin: 0;
+
+
+@mixin lista_imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    h2{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    p{
+        background-color: antiquewhite;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 30px;
+        width: 500px;
+    }
+    img{
+        justify-content: center;
+        margin: 30px;
+        object-fit: fill;
+        width: 500px;
+        height: 300px;
+    }
+
 }
 
 @mixin transicion($propiedades) {
